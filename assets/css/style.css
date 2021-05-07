@@ -1083,3 +1083,21 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/*Color badge*/
+.bg-r{
+background-color:#dc354526;
+}
+.bg-y{
+  background-color: #ffc10733;
+}
+.bg-blue{
+  background-color: #007bff1a;
+}
+.bg-g{
+  background-color: #28a7452e;
+}
+
+.bg-c{
+  background-color: #17a2b824;
+}
