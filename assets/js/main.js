@@ -191,3 +191,14 @@
   });
 
 })(jQuery);
+
+function obtenerEdad() {
+  let hoy = new Date();
+  let birthDate = new Date("1996-07-11");
+  let edad = hoy.getFullYear() - birthDate.getFullYear();
+  let m = hoy.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && hoy.getDate() < birthDate.getDate())) {
+    edad--;
+  }
+  return edad;
+}
